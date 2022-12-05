@@ -317,19 +317,11 @@ nav {
     position: relative;
     left: -40px;
     bottom: 6px;
-    visibility: visible;
-    animation-duration: 2s;
-    /* animation-delay: 0.4s; */
-    animation-name: fadeInLeft;
 }
 
 .AboutUs__right {
     width: 660px;
     padding-left: 40px;
-    visibility: visible;
-    animation-duration: 2s;
-    /* animation-delay: 0.4s; */
-    animation-name: fadeInRight;
 }
 
 .AboutUs__img img {

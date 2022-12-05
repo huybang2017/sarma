@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sarma</title>
+    <!-- icon -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -12,20 +13,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- font chữ -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- animate -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
     <!-- WOW.JS -->
-
     <link rel="stylesheet" href="css/animate.css" />
+
+    <!-- count up -->
 
     <!-- portfolio -->
     <link
@@ -237,7 +241,7 @@
       <div class="AboutUs__container">
         <div class="AboutUs__box">
           <div
-            class="wow AboutUs__left"
+            class="wow AboutUs__left animate__animated animate__fadeInLeft animate__delay-0.4s animate__duration-2s"
             data-wow-delay="0.2"
             data-wow-duration="2s"
           >
@@ -246,7 +250,7 @@
             </div>
           </div>
           <div
-            class="wow AboutUs__right"
+            class="wow AboutUs__right animate__animated animate__fadeInRight animate__delay-0.4s animate__duration-2s"
             data-wow-delay="0.2"
             data-wow-duration="2s"
           >
@@ -334,14 +338,17 @@
         <div class="feature__content">
           <div class="feature__left">
             <div
-              class="wow feature__title"
+              class="wow feature__title animate__animated animate__fadeInLeft animate__delay-0.2s animate__duration-2s"
               date-wow-delay="0.2s"
               data-wow-duration="2s"
             >
               <p>Our Features</p>
               <h2>Behind The Story Of Samar Agency</h2>
             </div>
-            <div class="wow feature__item">
+            <div class="wow feature__item animate__animated animate__fadeInRight animate__delay-0.4s animate__duration-2s"
+              date-wow-delay="0.4s"
+              data-wow-duration="2s"
+            >
               <div class="feature__bg">
                 <div class="feature__icon">
                   <i class="fa-solid fa-head-side-virus"></i>
@@ -355,7 +362,10 @@
                 </div>
               </div>
             </div>
-            <div class="wow feature__item">
+            <div class="wow feature__item animate__animated animate__fadeInRight animate__delay-0.6s animate__duration-2s"
+            date-wow-delay="0.6s"
+            data-wow-duration="2s"
+            >
               <div class="feature__bg">
                 <div class="feature__icon">
                   <i class="fa-solid fa-laptop-code"></i>
@@ -369,7 +379,10 @@
                 </div>
               </div>
             </div>
-            <div class="wow feature__item">
+            <div class="wow feature__item animate__animated animate__fadeInRight animate__delay-0.8s animate__duration-2s"
+            date-wow-delay="0.8s"
+            data-wow-duration="2s"
+            >
               <div class="feature__bg">
                 <div class="feature__icon">
                   <i class="fa-solid fa-laptop-medical"></i>
@@ -813,7 +826,7 @@
     </section>
     <section class="footer">
       <div class="footer__container">
-        <div class="footer__top">
+        <div class="wow footer__top animate__animated animate__fadeInUp">
           <div class="top__box">
             <div class="footer__text">
               <h2>Subscribe To Our Newsletter</h2>
@@ -834,7 +847,7 @@
           </div>
         </div>
         <div class="footer__mid">
-          <div class="footer__item">
+          <div class="wow footer__item animate__animated animate__fadeIn animate__delay-1s">
             <img src="/img/logo-white.png" alt="logo" />
             <ul>
               <li>
@@ -863,7 +876,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer__item">
+          <div class="wow footer__item animate__animated animate__fadeIn animate__delay-1s">
             <h3>Our links</h3>
             <ul>
               <li>
@@ -898,7 +911,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer__item">
+          <div class="wow footer__item animate__animated animate__fadeIn animate__delay-1s">
             <h3>Our Services</h3>
             <ul>
               <li>
@@ -933,7 +946,8 @@
               </li>
             </ul>
           </div>
-          <div class="footer__item">
+          <div class="wow footer__item animate__animated animate__fadeIn
+          animate__delay-1s">
             <h3>Other links</h3>
             <ul>
               <li>
@@ -1004,20 +1018,16 @@
       referrerpolicy="no-referrer"
     ></script>
     <!-- animate number -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
-      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="./js/jquery.countup.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="count_up/jquery.counterup.min.js"></script>
     <script>
-      $(".counter").countUp({
-        time: 4000,
+      $(".counter").counterUp({
         delay: 10,
+        time: 3000
       });
     </script>
+
+    <!-- count up repeat 1 -->
     <!-- WOW.JS -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
