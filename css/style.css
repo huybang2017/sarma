@@ -112,6 +112,7 @@ nav {
     padding-top: 180px;
     background-image: url(/img/pic2.png);
     background-size: 100%;
+    overflow: hidden;
 }
 
 .carousel__container {
@@ -188,10 +189,11 @@ nav {
 
 .carousel__right>.carousel__img {
     margin-left: 50px;
+    width: 120%;
 }
 
 .carousel__right>.carousel__img img {
-    width: 130%;
+    max-width: 100%;
 }
 
 .carousel__button {
