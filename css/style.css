@@ -761,11 +761,11 @@ nav {
 
 .portfolio__item:nth-child(3) {
     /* animation-duration: 2s; */
-    animation-delay: 1s;
+    /* animation-delay: 1s; */
 }
 
 .portfolio__item:nth-child(4) {
-    animation-delay: 1s;
+    /* animation-delay: 1s; */
 }
 
 /* PLAN */
@@ -1123,7 +1123,8 @@ nav {
     transform: translateX(-50%);
     opacity: 0;
 }
-.swiper-slide-thumb-active .shape-bx::before{
+
+.swiper-slide-thumb-active .shape-bx::before {
     opacity: 1;
 }
 
@@ -1528,13 +1529,15 @@ nav {
 
 @keyframes move__img {
     0% {
-        transform: rotate(1deg) translate(2px,2px);
+        transform: rotate(1deg) translate(2px, 2px);
     }
+
     50% {
-        transform: rotate(-1deg) translate(-2px,-2px);
+        transform: rotate(-1deg) translate(-2px, -2px);
     }
+
     100% {
-        transform: rotate(1deg) translate(2px,2px);
+        transform: rotate(1deg) translate(2px, 2px);
     }
 }
 
