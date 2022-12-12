@@ -1096,6 +1096,8 @@ nav {
     background-image: url(../img/pattern12.png);
     background-position: bottom;
     background-color: #f55f8d;
+    opacity: 0;
+    transition: all 1s;
 }
 
 .testimonial-pic::before {
@@ -1120,6 +1122,9 @@ nav {
     width: 10px;
     transform: translateX(-50%);
     opacity: 0;
+}
+.swiper-slide-thumb-active .shape-bx::before{
+    opacity: 1;
 }
 
 .swiper-slide-thumb-active .testimonial-pic::after {
